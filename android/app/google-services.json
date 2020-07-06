@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1063933917219",
+    "firebase_url": "https://clothify-dc225.firebaseio.com",
+    "project_id": "clothify-dc225",
+    "storage_bucket": "clothify-dc225.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063933917219:android:f9b41cf958f17d46b91996",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce_dress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063933917219-3o9kkcv52jind2u7mtrvj8mplf4qs44j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecommerce_dress",
+            "certificate_hash": "4e88d4047856c092dbafc5144c195083d6cd791a"
+          }
+        },
+        {
+          "client_id": "1063933917219-ngj7j16s5nni0tm0d2rrdd6sq9kabhma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJhbhKSup4B6Hg4FS4-mDLPjUEwF4SXXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063933917219-ngj7j16s5nni0tm0d2rrdd6sq9kabhma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
