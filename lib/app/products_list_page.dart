@@ -267,7 +267,7 @@ class _ProductsListPageState extends State<ProductsListPage>
                                     child: Row(
                                       children: <Widget>[
                                         Text(
-                                          'Sell a dress',
+                                          'Sell a Product',
                                           style: TextStyle(fontSize: 18),
                                         ),
                                         SizedBox(width: 10),

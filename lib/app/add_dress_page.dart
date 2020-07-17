@@ -44,7 +44,7 @@ class _AddDresspageState extends State<AddDresspage> {
     _titleController.dispose();
     _descriptionController.dispose();
     _totalItemController.dispose();
-  } 
+  }
 
   _uploadImage() async {
     var tempImage = await ImagePicker.pickImage(source: ImageSource.gallery);
@@ -117,7 +117,7 @@ class _AddDresspageState extends State<AddDresspage> {
               ),
               radius: 20,
             ),
-            Text('Upload a dress'),
+            Text('Upload a Product'),
           ],
         ),
       ),
@@ -211,7 +211,7 @@ class _AddDresspageState extends State<AddDresspage> {
           ),
         ),
         child: Text(
-          'Upload Dress',
+          'Upload Product',
           style: TextStyle(
             fontWeight: FontWeight.bold,
           ),

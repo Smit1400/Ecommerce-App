@@ -4,7 +4,12 @@ import 'package:flutter/material.dart';
 class SelectTypesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    List types = ['All', 'Western', 'Traditional', 'Wedding', 'Kurti'];
+    List types = [
+      {'title': 'All', 'img': 'images/dress.png'},
+      {'title': 'Men', 'img': 'images/men.png'},
+      {'title': 'Women', 'img': 'images/women.png'},
+      {'title': 'Kids', 'img': 'images/kids.png'}
+    ];
     return Scaffold(
       backgroundColor: backgroundColor,
       appBar: AppBar(
@@ -20,7 +25,7 @@ class SelectTypesPage extends StatelessWidget {
           itemBuilder: (context, index) {
             return InkWell(
               onTap: () {
-                Navigator.pop(context, '${types[index]}');
+                Navigator.pop(context, '${types[index]["title"]}');
               },
               child: Container(
                 height: 100,
@@ -31,7 +36,7 @@ class SelectTypesPage extends StatelessWidget {
                   child: ListTile(
                     title: Row(
                       children: <Widget>[
-                        Text('${types[index]}'),
+                        Text('${types[index]["title"]}'),
                         SizedBox(width: 5),
                         Icon(
                           Icons.arrow_forward,
@@ -39,7 +44,7 @@ class SelectTypesPage extends StatelessWidget {
                         )
                       ],
                     ),
-                    trailing: Image.asset('images/dress.png'),
+                    trailing: Image.asset('${types[index]["img"]}'),
                   ),
                 ),
               ),
