@@ -1,6 +1,6 @@
 <div align="center">
 
-# Chat Application
+# Ecommerce Application
 
 [![](https://img.shields.io/badge/Made_with-Flutter-red?style=for-the-badge&logo=flutter)](https://flutter.dev/)
 
